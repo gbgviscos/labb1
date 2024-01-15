@@ -1,0 +1,61 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.taskContainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20;
+}
+
+.task {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    list-style: none;
+    width: calc(100% - 20px); /* Sätter bredden till 33.33% för att få 3 kort per rad */
+    box-sizing: border-box; /* Inkluderar kantboxen i bredden */
+}
+
+.task strong {
+    font-weight: bold;
+}
+.footer {
+    padding-left: 50px;
+    flex-direction: row;
+    gap: 30px;
+    width: 100vmax;
+    background-color: aqua;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.task p {
+    margin: 5px 0;
+}
+.cardinfo {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+.doneBtn {
+    background-color: lightgreen;
+    height: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 10px, 10px, black;
+}
+.disabledBtn {
+    background-color: gray;
+    height: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 10px, 10px, black;
+}
