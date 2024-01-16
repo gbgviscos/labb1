@@ -144,7 +144,7 @@ function GodkantGrades() {
       </div>
       <div>
         <div className="container">
-          <h2>Godkänt</h2>
+          <h2>Uppgifter för Godkänt</h2>
           <div className="taskContainer">
             <Card
               tasks={approvedG}
@@ -154,7 +154,7 @@ function GodkantGrades() {
           </div>
         </div>
         <div className="container">
-          <h2>Väl Godkänt</h2>
+          <h2>Uppgifter för Väl Godkänt</h2>
           <div className="taskContainer">
             <Card
               tasks={approvedVG}
