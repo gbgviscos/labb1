@@ -1,3 +1,24 @@
+# React app för att visa på kunskap. 
+Detta projektet är skapat som "labb" till IT Högskolan.
+Detta är Labb 1 och avsikten är att visa kunskap i de delmoment som skolan bestämt skall krävas för att få Väl Godkänt. 
+
+Appen har ingen speciell CSS utan endast "bare minimum" för att visa proof of concept av funktion snarare än design. 
+
+Appens huvusakliga funktionalitet är att visa betygskriterierna och att sedan tillåta användaren att klicka i "Done". 
+När detta görs adderas poäng på "Total poäng" samt en beräkning görs om det totala värdet är godkänt eller väl godkänt. 
+
+Jag har gjort så att VG uppgifterna är värda 2 poäng och G uppgifterna är värda 1 poäng. 
+
+Är totalen > 6 så blir betyget "Godkänt" är det >12 blir det Väl Godkänt. 
+
+När en uppgit markeras som klar försvinner möjligheten att interagera med den. 
+
+Man kan kommentera på "öppna" uppgifter. dock finns ingen kontakt med någon databas så värdet lagras i sessionen endast. 
+
+## Enjoy 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
